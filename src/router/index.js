@@ -3,7 +3,7 @@ import HomeView from '../views/yszc.vue'
 import yhxy from '../views/yhxy.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/docs'),
   routes: [
     {
       path: '/',
