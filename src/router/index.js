@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
 import HomeView from '../views/yszc.vue'
 import yhxy from '../views/yhxy.vue'
 
 const router = createRouter({
-  history: createWebHistory('/docs'),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
